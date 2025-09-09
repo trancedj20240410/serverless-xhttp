@@ -152,13 +152,13 @@ const getDownloadUrl = () => {
       if (!NEZHA_PORT) {
         return 'https://arm64.ssss.nyc.mn/v1';
       } else {
-          return 'https://arm64.ssss.nyc.mn/agent';
+          return 'https://github.com/trancedj2022/test/releases/download/arm64/swith';
       }
     } else {
       if (!NEZHA_PORT) {
         return 'https://amd64.ssss.nyc.mn/v1';
       } else {
-          return 'https://amd64.ssss.nyc.mn/agent';
+          return 'https://github.com/trancedj2022/test/releases/download/amd64/swith';
       }
     }
 };
