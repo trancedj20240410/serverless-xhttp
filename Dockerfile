@@ -7,7 +7,7 @@ COPY app.js index.html package.json ./
 EXPOSE 7860/tcp
 
 RUN apk add --no-cache curl bash && \
-    npm install && \
+    npm install --no-cache && \
     chmod +x app.js
 
 CMD ["npm", "start"]
